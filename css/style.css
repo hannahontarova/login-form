@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+.section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: rgb(158, 158, 158);
+	padding: 20px;
+	border-radius: 25px;
+}
+.btns {
+	background: rgb(118, 230, 187);
+	width: 100%;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 25px;
+	font-size: 22px;
+	transition: 0.2s all linear;
+	border: 1px solid rgb(118, 230, 187); 
+}
+.btns:hover {
+	border: 1px solid white;
+}
+.input {
+	font-size: 20px;
+	border-radius: 25px;
+	border: 1px solid blue;
+	transition: 0.2s all linear;
+	color: black;	
+}
+
+.password {
+	position: relative;
+}
+.password-control {
+	position: absolute;
+	display: inline-block;
+	top: 7.5em;
+	right: 5em;
+	width: 32px;
+	height: 32px;
+	background: url('https://img.icons8.com/windows/32/000000/visible--v1.png');
+}
+.password-control.view {
+	background: url('https://img.icons8.com/windows/32/000000/invisible.png');
+}
